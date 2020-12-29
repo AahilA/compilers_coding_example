@@ -1,0 +1,19 @@
+package zw494.AST;
+
+import java.util.LinkedList;
+
+public class BracketList extends Node {
+    
+    int numBrackets;
+    
+    /**
+     * To count brackets and store the expressions from within it
+     * @param el
+     * @param numBrackets
+     */
+    public BracketList(LinkedList<Node> el, int numBrackets) {
+        children = new Node[1];
+        children[0] = new NodeList(el, 0);
+        this.numBrackets = numBrackets;
+    }
+}

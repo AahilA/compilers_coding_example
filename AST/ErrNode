@@ -1,0 +1,16 @@
+// package zw494.AST;
+
+// public class ErrNode extends Node {
+
+// public String message;
+
+// /**
+// * To store error message.
+// */
+// public ErrNode(String message, int row, int col) {
+// this.message = message;
+// this.rowpos = row;
+// this.colpos = col;
+// }
+
+// }
